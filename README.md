@@ -5,10 +5,10 @@ DDCarrier is a simple, universal Objective-C iOS library for quickly getting the
 
 DDCarrier is part of the DD-projects (check them out, they're cool!):
 
-DDDevice - Combines all DD-project in to one neat library (Coming Soon)
-[DDVersion](https://github.com/Dids/DDVersion.git) - Easily get the device name and type
-[DDCarrier](https://github.com/Dids/DDCarrier.git) - Easily get the current carrier name
-DDSize - Easily find out the device resolution (Coming Soon)
+- DDDevice - Combines all DD-project in to one neat library (Coming Soon)
+- [DDVersion](https://github.com/Dids/DDVersion.git) - Easily get the device name and type
+- [DDCarrier](https://github.com/Dids/DDCarrier.git) - Easily get the current carrier name
+- DDSize - Easily find out the device resolution (Coming Soon)
 
 More DD-projects are under development and will be added once completed.
 
