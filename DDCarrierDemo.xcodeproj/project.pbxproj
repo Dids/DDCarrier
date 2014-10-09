@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0767B97219E6928C0066AE0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0767B97119E6928C0066AE0F /* main.m */; };
+		0767B97519E6928C0066AE0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0767B97419E6928C0066AE0F /* AppDelegate.m */; };
+		0767B97819E6928C0066AE0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0767B97719E6928C0066AE0F /* ViewController.m */; };
+		0767B97B19E6928C0066AE0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0767B97919E6928C0066AE0F /* Main.storyboard */; };
+		0767B97D19E6928C0066AE0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0767B97C19E6928C0066AE0F /* Images.xcassets */; };
+		0767B98019E6928C0066AE0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0767B97E19E6928C0066AE0F /* LaunchScreen.xib */; };
+		0767B99819E692EC0066AE0F /* DDCarrier.m in Sources */ = {isa = PBXBuildFile; fileRef = 0767B99719E692EC0066AE0F /* DDCarrier.m */; };
+		0767B99A19E694F20066AE0F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0767B99919E694F20066AE0F /* CoreTelephony.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0767B96C19E6928C0066AE0F /* DDCarrierDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDCarrierDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0767B97019E6928C0066AE0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0767B97119E6928C0066AE0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0767B97319E6928C0066AE0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0767B97419E6928C0066AE0F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0767B97619E6928C0066AE0F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0767B97719E6928C0066AE0F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0767B97A19E6928C0066AE0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0767B97C19E6928C0066AE0F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0767B97F19E6928C0066AE0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0767B99619E692EC0066AE0F /* DDCarrier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDCarrier.h; path = DDCarrier/DDCarrier.h; sourceTree = "<group>"; };
+		0767B99719E692EC0066AE0F /* DDCarrier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDCarrier.m; path = DDCarrier/DDCarrier.m; sourceTree = "<group>"; };
+		0767B99919E694F20066AE0F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0767B96919E6928C0066AE0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0767B99A19E694F20066AE0F /* CoreTelephony.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0767B96319E6928C0066AE0F = {
+			isa = PBXGroup;
+			children = (
+				0767B99919E694F20066AE0F /* CoreTelephony.framework */,
+				0767B99519E692DF0066AE0F /* DDCarrier */,
+				0767B96E19E6928C0066AE0F /* DDCarrierDemo */,
+				0767B96D19E6928C0066AE0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0767B96D19E6928C0066AE0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0767B96C19E6928C0066AE0F /* DDCarrierDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0767B96E19E6928C0066AE0F /* DDCarrierDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0767B97319E6928C0066AE0F /* AppDelegate.h */,
+				0767B97419E6928C0066AE0F /* AppDelegate.m */,
+				0767B97619E6928C0066AE0F /* ViewController.h */,
+				0767B97719E6928C0066AE0F /* ViewController.m */,
+				0767B97919E6928C0066AE0F /* Main.storyboard */,
+				0767B97C19E6928C0066AE0F /* Images.xcassets */,
+				0767B97E19E6928C0066AE0F /* LaunchScreen.xib */,
+				0767B96F19E6928C0066AE0F /* Supporting Files */,
+			);
+			path = DDCarrierDemo;
+			sourceTree = "<group>";
+		};
+		0767B96F19E6928C0066AE0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0767B97019E6928C0066AE0F /* Info.plist */,
+				0767B97119E6928C0066AE0F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0767B99519E692DF0066AE0F /* DDCarrier */ = {
+			isa = PBXGroup;
+			children = (
+				0767B99619E692EC0066AE0F /* DDCarrier.h */,
+				0767B99719E692EC0066AE0F /* DDCarrier.m */,
+			);
+			name = DDCarrier;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0767B96B19E6928C0066AE0F /* DDCarrierDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0767B98F19E6928C0066AE0F /* Build configuration list for PBXNativeTarget "DDCarrierDemo" */;
+			buildPhases = (
+				0767B96819E6928C0066AE0F /* Sources */,
+				0767B96919E6928C0066AE0F /* Frameworks */,
+				0767B96A19E6928C0066AE0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DDCarrierDemo;
+			productName = DDCarrier;
+			productReference = 0767B96C19E6928C0066AE0F /* DDCarrierDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0767B96419E6928C0066AE0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Didstopia;
+				TargetAttributes = {
+					0767B96B19E6928C0066AE0F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 0767B96719E6928C0066AE0F /* Build configuration list for PBXProject "DDCarrierDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0767B96319E6928C0066AE0F;
+			productRefGroup = 0767B96D19E6928C0066AE0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0767B96B19E6928C0066AE0F /* DDCarrierDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0767B96A19E6928C0066AE0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0767B97B19E6928C0066AE0F /* Main.storyboard in Resources */,
+				0767B98019E6928C0066AE0F /* LaunchScreen.xib in Resources */,
+				0767B97D19E6928C0066AE0F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0767B96819E6928C0066AE0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0767B97819E6928C0066AE0F /* ViewController.m in Sources */,
+				0767B97519E6928C0066AE0F /* AppDelegate.m in Sources */,
+				0767B99819E692EC0066AE0F /* DDCarrier.m in Sources */,
+				0767B97219E6928C0066AE0F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0767B97919E6928C0066AE0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0767B97A19E6928C0066AE0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0767B97E19E6928C0066AE0F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0767B97F19E6928C0066AE0F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0767B98D19E6928C0066AE0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0767B98E19E6928C0066AE0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0767B99019E6928C0066AE0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/DDCarrierDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = DDCarrierDemo;
+			};
+			name = Debug;
+		};
+		0767B99119E6928C0066AE0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/DDCarrierDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = DDCarrierDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0767B96719E6928C0066AE0F /* Build configuration list for PBXProject "DDCarrierDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0767B98D19E6928C0066AE0F /* Debug */,
+				0767B98E19E6928C0066AE0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0767B98F19E6928C0066AE0F /* Build configuration list for PBXNativeTarget "DDCarrierDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0767B99019E6928C0066AE0F /* Debug */,
+				0767B99119E6928C0066AE0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0767B96419E6928C0066AE0F /* Project object */;
+}
