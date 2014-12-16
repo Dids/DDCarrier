@@ -9,6 +9,7 @@ DDCarrier is part of the DD-projects (check them out, they're cool!):
 - [DDVersion](https://github.com/Dids/DDVersion.git) - Easily get the device name and type
 - [DDCarrier](https://github.com/Dids/DDCarrier.git) - Easily get the current carrier name
 - DDSize - Easily find out the device resolution (Coming Soon)
+- [DDNavText](https://github.com/Dids/DDNavText.git) - Additional text for UINavigationBar title
 
 More DD-projects are under development and will be added once completed.
 
