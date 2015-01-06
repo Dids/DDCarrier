@@ -11,6 +11,10 @@
 
 #import "DDCarrier.h"
 
+@interface DDCarrierTests : XCTestCase
+
+@end
+
 @implementation DDCarrierTests
 
 - (void)testCarrierName
