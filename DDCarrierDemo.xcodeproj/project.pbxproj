@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0762EB601A5C8BD900CBEDC4 /* DDCarrierTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0762EB5F1A5C8BD900CBEDC4 /* DDCarrierTests.m */; };
 		0767B97219E6928C0066AE0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0767B97119E6928C0066AE0F /* main.m */; };
 		0767B97519E6928C0066AE0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0767B97419E6928C0066AE0F /* AppDelegate.m */; };
 		0767B97819E6928C0066AE0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0767B97719E6928C0066AE0F /* ViewController.m */; };
@@ -14,10 +15,22 @@
 		0767B97D19E6928C0066AE0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0767B97C19E6928C0066AE0F /* Images.xcassets */; };
 		0767B98019E6928C0066AE0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0767B97E19E6928C0066AE0F /* LaunchScreen.xib */; };
 		0767B99819E692EC0066AE0F /* DDCarrier.m in Sources */ = {isa = PBXBuildFile; fileRef = 0767B99719E692EC0066AE0F /* DDCarrier.m */; };
-		0767B99A19E694F20066AE0F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0767B99919E694F20066AE0F /* CoreTelephony.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0762EB611A5C8BD900CBEDC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0767B96419E6928C0066AE0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0767B96B19E6928C0066AE0F;
+			remoteInfo = DDCarrierDemo;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0762EB5B1A5C8BD900CBEDC4 /* DDCarrierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDCarrierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0762EB5E1A5C8BD900CBEDC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0762EB5F1A5C8BD900CBEDC4 /* DDCarrierTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDCarrierTests.m; sourceTree = "<group>"; };
 		0767B96C19E6928C0066AE0F /* DDCarrierDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDCarrierDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0767B97019E6928C0066AE0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0767B97119E6928C0066AE0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -30,27 +43,49 @@
 		0767B97F19E6928C0066AE0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0767B99619E692EC0066AE0F /* DDCarrier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDCarrier.h; path = DDCarrier/DDCarrier.h; sourceTree = "<group>"; };
 		0767B99719E692EC0066AE0F /* DDCarrier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDCarrier.m; path = DDCarrier/DDCarrier.m; sourceTree = "<group>"; };
-		0767B99919E694F20066AE0F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0762EB581A5C8BD900CBEDC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0767B96919E6928C0066AE0F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0767B99A19E694F20066AE0F /* CoreTelephony.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0762EB5C1A5C8BD900CBEDC4 /* DDCarrierTests */ = {
+			isa = PBXGroup;
+			children = (
+				0762EB5F1A5C8BD900CBEDC4 /* DDCarrierTests.m */,
+				0762EB5D1A5C8BD900CBEDC4 /* Supporting Files */,
+			);
+			path = DDCarrierTests;
+			sourceTree = "<group>";
+		};
+		0762EB5D1A5C8BD900CBEDC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0762EB5E1A5C8BD900CBEDC4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		0767B96319E6928C0066AE0F = {
 			isa = PBXGroup;
 			children = (
-				0767B99919E694F20066AE0F /* CoreTelephony.framework */,
 				0767B99519E692DF0066AE0F /* DDCarrier */,
 				0767B96E19E6928C0066AE0F /* DDCarrierDemo */,
+				0762EB5C1A5C8BD900CBEDC4 /* DDCarrierTests */,
 				0767B96D19E6928C0066AE0F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				0767B96C19E6928C0066AE0F /* DDCarrierDemo.app */,
+				0762EB5B1A5C8BD900CBEDC4 /* DDCarrierTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +135,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0762EB5A1A5C8BD900CBEDC4 /* DDCarrierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0762EB651A5C8BD900CBEDC4 /* Build configuration list for PBXNativeTarget "DDCarrierTests" */;
+			buildPhases = (
+				0762EB571A5C8BD900CBEDC4 /* Sources */,
+				0762EB581A5C8BD900CBEDC4 /* Frameworks */,
+				0762EB591A5C8BD900CBEDC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0762EB621A5C8BD900CBEDC4 /* PBXTargetDependency */,
+			);
+			name = DDCarrierTests;
+			productName = DDCarrierTests;
+			productReference = 0762EB5B1A5C8BD900CBEDC4 /* DDCarrierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		0767B96B19E6928C0066AE0F /* DDCarrierDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0767B98F19E6928C0066AE0F /* Build configuration list for PBXNativeTarget "DDCarrierDemo" */;
@@ -122,9 +176,14 @@
 		0767B96419E6928C0066AE0F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DD;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Didstopia;
 				TargetAttributes = {
+					0762EB5A1A5C8BD900CBEDC4 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 0767B96B19E6928C0066AE0F;
+					};
 					0767B96B19E6928C0066AE0F = {
 						CreatedOnToolsVersion = 6.1;
 					};
@@ -144,11 +203,19 @@
 			projectRoot = "";
 			targets = (
 				0767B96B19E6928C0066AE0F /* DDCarrierDemo */,
+				0762EB5A1A5C8BD900CBEDC4 /* DDCarrierTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0762EB591A5C8BD900CBEDC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0767B96A19E6928C0066AE0F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -162,6 +229,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0762EB571A5C8BD900CBEDC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0762EB601A5C8BD900CBEDC4 /* DDCarrierTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0767B96819E6928C0066AE0F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -174,6 +249,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0762EB621A5C8BD900CBEDC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0767B96B19E6928C0066AE0F /* DDCarrierDemo */;
+			targetProxy = 0762EB611A5C8BD900CBEDC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0767B97919E6928C0066AE0F /* Main.storyboard */ = {
@@ -195,6 +278,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0762EB631A5C8BD900CBEDC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DDCarrierTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DDCarrierDemo.app/DDCarrierDemo";
+			};
+			name = Debug;
+		};
+		0762EB641A5C8BD900CBEDC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DDCarrierTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DDCarrierDemo.app/DDCarrierDemo";
+			};
+			name = Release;
+		};
 		0767B98D19E6928C0066AE0F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -298,6 +417,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0762EB651A5C8BD900CBEDC4 /* Build configuration list for PBXNativeTarget "DDCarrierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0762EB631A5C8BD900CBEDC4 /* Debug */,
+				0762EB641A5C8BD900CBEDC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		0767B96719E6928C0066AE0F /* Build configuration list for PBXProject "DDCarrierDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

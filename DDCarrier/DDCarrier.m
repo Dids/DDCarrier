@@ -8,8 +8,7 @@
 
 #import "DDCarrier.h"
 
-#import <CoreTelephony/CTTelephonyNetworkInfo.h>
-#import <CoreTelephony/CTCarrier.h>
+@import CoreTelephony;
 
 @implementation DDCarrier
 

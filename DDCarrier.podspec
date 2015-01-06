@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "DDCarrier"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "A universal Objective-C iOS library for quickly getting the carrier name."
   s.homepage         = "http://github.com/Dids/DDCarrier"
   s.license          = { :type => "MIT", :file => "LICENSE" }
