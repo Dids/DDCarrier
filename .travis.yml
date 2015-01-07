@@ -1,3 +1,5 @@
 language: objective-c
 xcode_project: DDCarrierDemo.xcodeproj
 xcode_scheme: DDCarrierTests
+xcode_sdk: iphonesimulator
+
