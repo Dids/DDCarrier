@@ -2,4 +2,6 @@ language: objective-c
 xcode_project: DDCarrierDemo.xcodeproj
 xcode_scheme: DDCarrierTests
 xcode_sdk: iphonesimulator
-
+notifications:
+  slack:
+    secure: gisbeuUDWDPJ8POGYREOjMliqlqqYhIHpXHVfLsVbmFbbju0oUR1lDGU/GrB9xRCVa1cLN31x3w20KkmDrd9mrM/C91GqSNZyqswsd8aJI5rBdb2UpzvNvLCGnXrED0gzG242SUTH6UPZIzeEjFYxugksLi2e6X3rIsHBJx4OuU=
