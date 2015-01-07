@@ -16,7 +16,11 @@
 {
     CTTelephonyNetworkInfo *netinfo = [[CTTelephonyNetworkInfo alloc] init];
     CTCarrier *carrier = [netinfo subscriberCellularProvider];
+    #if TARGET_IPHONE_SIMULATOR
+    return @"Simulator";
+    #else
     if (carrier.carrierName == nil || carrier.carrierName.length <= 0) return @"N/A";
+    #endif
     return [carrier carrierName];
 }
 

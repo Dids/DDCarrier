@@ -21,7 +21,7 @@
 {
     NSString *carrierName = [DDCarrier carrierName];
     
-    XCTAssert(![carrierName isEqualToString:@"N/A"], @"Don't run this in a Simulator. A proper carrier is required for this test to complete.");
+    XCTAssert([carrierName isEqualToString:@"Simulator"], @"Run this in a Simulator to pass the test.");
 }
 
 @end
