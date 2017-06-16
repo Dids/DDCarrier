@@ -1,4 +1,4 @@
-# DDCarrier [![Build Status](https://travis-ci.org/Dids/DDCarrier.png?branch=master)](https://travis-ci.org/Dids/DDCarrier)
+# DDCarrier [![Build Status](https://travis-ci.org/Dids/DDCarrier.svg?branch=master)](https://travis-ci.org/Dids/DDCarrier)
 
 DDCarrier is a simple, universal Objective-C iOS library for quickly getting the current carrier name.
 
