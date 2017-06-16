@@ -1,7 +1,13 @@
+osx_image: xcode8.3
+
 language: objective-c
-xcode_project: DDCarrierDemo.xcodeproj
-xcode_scheme: DDCarrierTests
-xcode_sdk: iphonesimulator
-notifications:
-  slack:
-    secure: gisbeuUDWDPJ8POGYREOjMliqlqqYhIHpXHVfLsVbmFbbju0oUR1lDGU/GrB9xRCVa1cLN31x3w20KkmDrd9mrM/C91GqSNZyqswsd8aJI5rBdb2UpzvNvLCGnXrED0gzG242SUTH6UPZIzeEjFYxugksLi2e6X3rIsHBJx4OuU=
+
+sudo: false
+
+env:
+  - XCODE_BUILD_COMMAND="xcodebuild clean test -project DDCarrierDemo.xcodeproj -scheme DDCarrierTests -destination 'platform=iOS Simulator,name=iPhone 6s,OS=10.3.1'"
+  - XCODE_BUILD_COMMAND="xcodebuild clean test -project DDCarrierDemo.xcodeproj -scheme DDCarrierTests -destination 'platform=iOS Simulator,name=iPhone SE,OS=9.3'"
+  - XCODE_BUILD_COMMAND="xcodebuild clean test -project DDCarrierDemo.xcodeproj -scheme DDCarrierTests -destination 'platform=iOS Simulator,name=iPhone 5s,OS=8.4'"
+
+script:
+  - eval $XCODE_BUILD_COMMAND
